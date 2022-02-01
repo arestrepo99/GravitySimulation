@@ -14,8 +14,10 @@ git clone https://github.com/arestrepo99/GravitySimulation
 ```sh
 pip install numpy,pyopencl
 ```
-
-## Example
+## Example Outputs 
+https://youtu.be/pueIZV-wzVE
+https://youtu.be/0b5-ghetJ-g
+## Example Code
 
 ```python
 from Space import Space
@@ -33,4 +35,5 @@ space1 = Space(pos,vel)
 img = space1.step(1e5, zoom = 4e-1)
 plt.imshow((np.tanh(img*10)*255).astype(np.uint8),cmap='magma', vmax=255)
 ```
+
 ![Example](example.png)
