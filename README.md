@@ -16,6 +16,7 @@ pip install numpy,pyopencl
 ```
 ## Example Outputs 
 https://youtu.be/pueIZV-wzVE
+
 https://youtu.be/0b5-ghetJ-g
 ## Example Code
 
