@@ -33,4 +33,4 @@ space1 = Space(pos,vel)
 img = space1.step(1e5, zoom = 4e-1)
 plt.imshow((np.tanh(img*10)*255).astype(np.uint8),cmap='magma', vmax=255)
 ```
-![Exampole](example.png =x250)
+![Exampole](example.png)
