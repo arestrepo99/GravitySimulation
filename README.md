@@ -35,4 +35,4 @@ plt.imshow((np.tanh(img*10)*255).astype(np.uint8),cmap='magma', vmax=255)
 ```
 ![Exampole](example.png)
 
-![](example.png =x250)
+![](example.png =250x250)
